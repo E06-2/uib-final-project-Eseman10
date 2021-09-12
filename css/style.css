@@ -180,6 +180,8 @@ a {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    /* -webkit-animation: rotate 12s infinite linear;
+    animation: rotate 12s infinite linear; */
     transform: rotateY(360deg);
     transition: transform 5s;
     transform-style: preserve-3d;
@@ -688,6 +690,7 @@ a {
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
     content: '';
+    position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
